@@ -13,7 +13,7 @@
 
         text-align: center;
         color: var(--color-text-light);
-        margin: 4em 0;
+        margin: 10vh 0;
     }
 
     div :global(h1) {
