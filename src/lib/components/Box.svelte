@@ -14,10 +14,12 @@
         text-align: center;
         color: var(--color-text-light);
         margin: 10vh 0;
+        padding: 1em 0;
     }
 
     div :global(h1) {
         font-size: 1.5em;
+        margin-top: 0;
     }
 
     div :global(p) {

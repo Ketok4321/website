@@ -1,6 +1,6 @@
 <nav>
     <a href="todo">Projects</a>
-    <a href="todo">Self Hosted</a>
+    <a href="self_hosted">Self Hosted</a>
     <a href="/" id="title">ketok.xyz</a>
     <a href="todo">About Me</a>
     <a href="todo">Other Stuff</a>
@@ -61,5 +61,4 @@
             display: none;
         }
     }
-
 </style>
