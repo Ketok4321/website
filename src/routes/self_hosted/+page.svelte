@@ -5,7 +5,7 @@
 
 <Box>
 	<h1>Things I self-host</h1>
-	<p>Here is the list of things I self-host on my homeserver.</p>
+	<p>Things I self-host on my homeserver.</p>
 </Box>
 
 <Box>
@@ -18,5 +18,5 @@
 </Box>
 
 <Box>
-	<p>There will be more stuff in the future</p>
+	<p>WIP</p>
 </Box>

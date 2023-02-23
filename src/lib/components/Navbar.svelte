@@ -1,5 +1,5 @@
 <nav>
-    <a href="todo">Projects</a>
+    <a href="projects">Projects</a>
     <a href="self_hosted">Self Hosted</a>
     <a href="/" id="title">ketok.xyz</a>
     <a href="todo">About Me</a>

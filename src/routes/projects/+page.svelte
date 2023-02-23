@@ -1,0 +1,25 @@
+<script>
+    import Box from "$lib/components/Box.svelte"
+	import Link from "$lib/components/Link.svelte"
+</script>
+
+<Box>
+	<h1>My projects</h1>
+	<p>Things I made or still work on</p>
+</Box>
+
+<Box>
+	<h1>Where Esolang</h1>
+	<p>
+		An esolang where memory is accessible only by using "WHERE" statement.
+		For example WHERE &lt;2 SET 0 sets all memory cells with value lower than 2 to 0.
+	</p>
+	<div style:display="flex" style:flex-direction="row" style:justify-content="center" style:align-items="center" style:gap="0.5em">
+		<Link href="https://github.com/Ketok4321/WhereEsolang" label="Repo" icon="github/f0f0f0" alt="github"/>
+		<Link href="https://esolangs.org/wiki/Where" label="Wiki" icon="wikipedia/f0f0f0" alt="wiki"/>
+	</div>
+</Box>
+
+<Box>
+	<p>WIP</p>
+</Box>
