@@ -1,4 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
+import preprocess from 'svelte-preprocess';
  
 export default {
   kit: {
@@ -9,5 +10,6 @@ export default {
       precompress: false,
       strict: true
     })
-  }
+  },
+  preprocess: preprocess({})
 };

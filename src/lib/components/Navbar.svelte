@@ -28,8 +28,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
-        /* background-color: #09090a; */
     }
 
     a:not(#title):hover {

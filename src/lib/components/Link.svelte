@@ -7,7 +7,7 @@
     {label}
 </a>
 
-<style>
+<style lang="scss">
     a {
         display: flex;
         justify-content: center;
@@ -20,11 +20,11 @@
 
     a:hover {
         text-decoration: underline;
-    }
 
-    a:hover img {
-        filter: brightness(2) drop-shadow(0 0 0.15em var(--color-accent-75));
-        transition: 0.3s;
+        img {
+            filter: brightness(2) drop-shadow(0 0 0.15em var(--color-accent-75));
+            transition: 0.3s;
+        }
     }
 
     img {

@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<style>
+<style lang="scss">
     .box {
         width: 100%;
         margin: 10vh 0;
@@ -23,22 +23,22 @@
 
         text-align: center;
         color: var(--color-text-light);
-    }
 
-    .contents > :global(:first-child) {
-        margin-top: 0;
-    }
+        > :global(:first-child) {
+            margin-top: 0;
+        }
 
-    .contents > :global(:last-child) {
-        margin-bottom: 0;
-    }
+        > :global(:last-child) {
+            margin-bottom: 0;
+        }
 
-    .box :global(h1) {
-        font-size: 1.5em;
-    }
+        :global(h1) {
+            font-size: 1.5em;
+        }
 
-    .box :global(p) {
-        margin: 1em auto;
-        font-size: 0.75em;
+        :global(p) {
+            margin: 1em auto;
+            font-size: 0.75em;
+        }
     }
 </style>

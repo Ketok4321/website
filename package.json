@@ -12,7 +12,11 @@
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.5.0",
 		"svelte": "^3.54.0",
+		"svelte-preprocess": "^5.0.1",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"sass": "^1.58.3"
+	}
 }
