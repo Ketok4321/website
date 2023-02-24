@@ -22,7 +22,7 @@
         text-decoration: underline;
 
         img {
-            filter: brightness(2) drop-shadow(0 0 0.15em var(--color-accent-75));
+            filter: brightness(150%) drop-shadow(0 0 0.15em var(--color-accent-75));
             transition: 0.3s;
         }
     }

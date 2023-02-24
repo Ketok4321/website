@@ -43,15 +43,6 @@
         letter-spacing: 0.2em;
 
         text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.25);
-
-        transition: 0.5s;
-    }
-
-    #title:hover {
-        color: white;
-        text-shadow: 0 0 0.5em var(--color-accent);
-
-        transition: 0.3s;
     }
 
     @media screen and (max-width: 45em) {
