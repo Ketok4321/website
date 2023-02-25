@@ -15,5 +15,10 @@
 </Box>
 
 <Box>
+	<h3>Contact</h3>
+	<p>Email: <a href="mailto:ketok@ketok.xyz">ketok@ketok.xyz</a></p>
+</Box>
+
+<Box>
 	<p>Note: This page is still very WIP</p>
 </Box>
