@@ -10,7 +10,6 @@
 	
 	<Flex type="vertical">
 		<Link href="https://github.com/Ketok4321" label="Ketok4321" icon="github/f0f0f0" alt="github"/>
-		<Link href="https://twitter.com/Ketok1842" label="Ketok1842" icon="twitter" alt="twitter"/>
 	</Flex>
 </Box>
 
