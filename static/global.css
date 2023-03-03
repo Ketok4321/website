@@ -2,8 +2,9 @@
 
 :root {
     --color-background-100: #1D1C20;
-    --color-background-90: rgba(29, 28, 32, 0.90);
+    --color-background-85: rgba(29, 28, 32, 0.85);
     --color-background-75: rgba(29, 28, 32, 0.75);
+    --color-background-50: rgba(29, 28, 32, 0.50);
 
     --color-text-light: #fff;
     --color-text-dark: rgb(32, 32, 32);
@@ -41,7 +42,7 @@ a {
     color: var(--color-text-light);
     text-decoration: none;
 
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 a:hover {
