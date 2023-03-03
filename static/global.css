@@ -25,12 +25,12 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(img/pexels-laura-stanley-5644346-compressed.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url(img/pexels-photograph-3961942.jpg) no-repeat center center fixed;
     background-size: cover;
     
     margin: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     
     font-family: 'Poppins', sans-serif;
     color: var(--color-text-dark);
