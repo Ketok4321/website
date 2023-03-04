@@ -1,13 +1,54 @@
-<pre><code><slot/></code></pre>
+<script>
+    export let copy_button = false;
+</script>
+
+<div>
+    <pre><code><slot/></code></pre>
+    {#if copy_button}
+        <button onclick="navigator.clipboard.writeText(this.parentNode.querySelector('code').innerText)"><i class="fa-solid fa-copy"></i></button>
+    {/if}
+</div>
 
 <style>
-    code {
+    div {
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
         max-width: 100%;
+        margin: 0.5em auto;
+
         font-size: 1rem;
-        padding: 0.25em;
         background-color: rgb(32, 32, 32);
         color: var(--color-text-light);
         border: 0.2em solid rgb(16, 16, 16);
         border-radius: 0.5em;
+    }
+
+    pre {
+        margin: 0.25em;
+    }
+
+    button {
+        --color-background: rgb(24, 24, 24);
+
+        margin: 0;
+        width: 2em;
+        margin-left: 0.25em;
+        background-color: var(--color-background);
+        color: var(--color-text-light);
+        border: none;
+        border-left: 0.2em solid var(--color-background);
+        font-size: 1em;
+
+        transition: 0.3s;
+    }
+
+    button:hover {
+        --color-background: rgb(16, 16, 16);
+    }
+
+    button:active {
+        --color-background: rgb(48, 48, 48);
+        transition: 0.1s;
     }
 </style>
