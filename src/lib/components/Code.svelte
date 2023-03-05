@@ -22,6 +22,8 @@
         color: var(--color-text-light);
         border: 0.2em solid rgb(16, 16, 16);
         border-radius: 0.5em;
+
+        transition: 0.3s;
     }
 
     pre {
@@ -48,7 +50,12 @@
     }
 
     button:active {
-        --color-background: rgb(48, 48, 48);
+        --color-background: rgb(32, 32, 32);
+        transition: 0.1s;
+    }
+    
+    div:has(button:active) {
+        background-color: rgb(48, 48, 48);
         transition: 0.1s;
     }
 </style>
