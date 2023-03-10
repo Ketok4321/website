@@ -5,7 +5,7 @@
 <div>
     <pre><code><slot/></code></pre>
     {#if copy_button}
-        <button onclick="navigator.clipboard.writeText(this.parentNode.querySelector('code').innerText)"><i class="fa-solid fa-copy"></i></button>
+        <button type="button" onclick="navigator.clipboard.writeText(this.parentNode.querySelector('code').innerText)"><i class="fa-solid fa-copy"></i></button>
     {/if}
 </div>
 
@@ -28,6 +28,14 @@
 
     pre {
         margin: 0.25em;
+        overflow: hidden;
+    }
+
+    code {
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
 
     button {
@@ -53,7 +61,7 @@
         --color-background: rgb(32, 32, 32);
         transition: 0.1s;
     }
-    
+
     div:has(button:active) {
         background-color: rgb(48, 48, 48);
         transition: 0.1s;
