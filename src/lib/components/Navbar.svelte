@@ -11,9 +11,9 @@
         width: 100%;
         height: 3em;
 
-        background-color: var(--color-background-85);
+        background-color: var(--color-background-1);
         backdrop-filter: blur(0.5rem);
-        border-bottom: 0.5rem solid var(--color-background-100);
+        border-bottom: 0.5rem solid var(--color-background-0);
         box-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.4);
 
         display: flex;
@@ -31,7 +31,7 @@
     }
 
     a:not(#title):hover {
-        background-color: var(--color-background-50);
+        background-color: var(--color-background-3);
     }
 
     #title {

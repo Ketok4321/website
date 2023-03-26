@@ -1,10 +1,10 @@
 @import url(https://fonts.bunny.net/css?family=poppins:400);
 
 :root {
-    --color-background-100: #1D1C20;
-    --color-background-85: rgba(29, 28, 32, 0.85);
-    --color-background-75: rgba(29, 28, 32, 0.75);
-    --color-background-50: rgba(29, 28, 32, 0.50);
+    --color-background-0: #1D1C20;
+    --color-background-1: rgba(29, 28, 32, 0.75);
+    --color-background-2: rgba(29, 28, 32, 0.60);
+    --color-background-3: rgba(29, 28, 32, 0.50);
 
     --color-text-light: #fff;
     --color-text-dark: rgb(32, 32, 32);
@@ -26,7 +26,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url(img/pexels-photograph-3961942.jpg) no-repeat center center fixed;
+    background: url(img/background-compressed.jpg) no-repeat center center fixed;
     background-size: cover;
     
     margin: 0;
