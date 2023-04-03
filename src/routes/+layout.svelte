@@ -7,3 +7,5 @@
 <Navbar/>
 
 <slot/>
+
+<br>
