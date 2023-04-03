@@ -4,4 +4,4 @@
 </script>
 
 <h1 style:margin-bottom="0">{title}</h1>
-<p style:margin-top="0">{subtitle}</p>
+<p style:margin-top="0" style:font-size="0.75em">{subtitle}</p>

@@ -1,15 +1,16 @@
 <script>
     import Box from "$lib/components/Box.svelte"
     import Code from "$lib/components/Code.svelte"
+    import Title from "../../lib/components/Title.svelte"
 </script>
 
 <Box>
 	<h1>Things I self-host</h1>
-	<p>Things I self-host on my homeserver.</p>
+	<p>Things I host myself.</p>
 </Box>
 
 <Box>
-	<h1>Flatpak remote (repo)</h1>
+	<Title title="Flatpak remote"/>
 	<p>I host my own flatpak remote. I only created it for fun and learning purposes, there are no useful things downloadable from there.</p>
 	<p>Add the remote to your <del>system</del> user:</p>
 	<Code copy_button="true">flatpak remote-add --user --no-gpg-verify gowno http://gowno.ketok.xyz/gowno.flatpakrepo</Code>
@@ -18,5 +19,9 @@
 </Box>
 
 <Box>
-	<p>WIP</p>
+	<Title title="The end"/>
+	<p>
+		I actually self-host a few more things, but a lot of them are just for myself and my friends.<br>
+		There will be more stuff on this page in the future tho.
+	</p>
 </Box>
