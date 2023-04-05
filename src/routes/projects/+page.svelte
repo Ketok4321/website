@@ -46,6 +46,6 @@
 	<Title title="The end" subtitle="That's all" />
 	<p>
 		Well, I have also created a few other small things, and made some minor contributions to other projects, but I don't think they are that noteworthy.
-		If you want to see them, you can check my <a href="https://github.com/Ketok4321" style:text-decoration="underline">GitHub</a> profile.
+		If you want to see them, you can check my <a href="https://github.com/Ketok4321">GitHub</a> profile.
 	</p>
 </Box>
