@@ -11,6 +11,7 @@
 
     --color-accent: #2B7FFF;
     --color-accent-75: rgba(43, 128, 255, 0.75);
+    --color-accent-25: rgba(43, 128, 255, 0.25);
 }
 
 @media screen and (min-width: 25em) {

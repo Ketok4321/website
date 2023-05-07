@@ -32,11 +32,11 @@
             margin-bottom: 0;
         }
 
-        :global(h1) {
+        > :global(h1) {
             font-size: 1.5em;
         }
 
-        :global(p) {
+        > :global(p) {
             margin: 1em auto;
             font-size: 0.75em;
         }

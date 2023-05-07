@@ -3,7 +3,7 @@
     <a href="self_hosted">Self Hosted</a>
     <a href="/" id="title">ketok.xyz</a>
     <a href="todo">About Me</a>
-    <a href="todo">Other Stuff</a>
+    <a href="other_stuff">Other Stuff</a>
 </nav>
 
 <style>
