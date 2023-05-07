@@ -20,7 +20,7 @@
     }
 
     img {
-        --color-border: var(--color-background-0);
+        --color-border: var(--color-background-border);
 
         width: 3em;
         height: 3em;
@@ -32,7 +32,7 @@
     }
 
     a:hover img {
-        --color-border: var(--color-text-dark);
+        --color-border: var(--color-background-0);
 
         filter: saturate(100%) drop-shadow(0 0 0.5em var(--color-accent-25));;
     }

@@ -12,8 +12,8 @@
 
         background-color: var(--color-background-2);
         backdrop-filter: blur(0.5rem);
-        border-top: 0.5rem solid var(--color-background-0);
-        border-bottom: 0.5rem solid var(--color-background-0);
+        border-top: 0.5rem solid var(--color-background-border);
+        border-bottom: 0.5rem solid var(--color-background-border);
     }
 
     .contents {

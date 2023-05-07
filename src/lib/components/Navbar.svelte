@@ -13,7 +13,7 @@
 
         background-color: var(--color-background-1);
         backdrop-filter: blur(0.5rem);
-        border-bottom: 0.5rem solid var(--color-background-0);
+        border-bottom: 0.5rem solid var(--color-background-border);
         box-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.4);
 
         display: flex;

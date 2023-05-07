@@ -1,6 +1,5 @@
 <script>
     import Box from "$lib/components/Box.svelte"
-	import Link from "$lib/components/Link.svelte"
 	import Flex from "$lib/components/Flex.svelte"
     import Title from "$lib/components/Title.svelte"
     import Friend from "./Friend.svelte"
