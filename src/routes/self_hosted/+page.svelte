@@ -10,6 +10,14 @@
 </Box>
 
 <Box>
+	<Title title="Container registry"/>
+	<p>
+		I host my own docker container regsitry at reg.ketok.xyz.<br>
+		At the time of writing this, the only image hosted there is for my discord bot, but there will be more in the future.
+	</p>
+</Box>
+
+<Box>
 	<Title title="Flatpak remote"/>
 	<p>I host my own flatpak remote. I only created it for fun and learning purposes, there are no useful things downloadable from there.</p>
 	<p>Add the remote to your <del>system</del> user:</p>
