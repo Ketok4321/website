@@ -1,14 +1,15 @@
 <div class="box">
+    <hr/>
     <div class="contents">
         <slot/>
     </div>
+    <hr/>
 </div>
 
 <style lang="scss">
     .box {
         width: 100%;
         margin: 10vh 0;
-        padding: 1em 0;
 
         background-color: var(--color-background-2);
         backdrop-filter: blur(0.5rem);
@@ -19,7 +20,7 @@
     .contents {
         width: 90%;
         max-width: 40em;
-        margin: 0 auto;
+        margin: 0.5em auto;
 
         text-align: center;
         color: var(--color-text-light);
@@ -40,5 +41,11 @@
             margin: 1em auto;
             font-size: 0.75em;
         }
+    }
+
+    hr {
+        margin: 0.125em;
+        border: 0.075em solid var(--color-background-border);
+        opacity: 30%;
     }
 </style>
