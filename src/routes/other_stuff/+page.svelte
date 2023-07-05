@@ -7,7 +7,7 @@
 
 <Box>
 	<Title title="Other stuff"/>
-	<p>Things</p>
+	<p>Just things</p>
 </Box>
 
 <Box>

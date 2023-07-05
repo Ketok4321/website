@@ -6,7 +6,7 @@
 
 <Box>
 	<h1>Things I self-host</h1>
-	<p>Things I host myself.</p>
+	<p>Things I host myself</p>
 </Box>
 
 <Box>
