@@ -4,6 +4,10 @@
 	import Flex from "$lib/components/Flex.svelte"
 </script>
 
+<svelte:head>
+    <title>Ketok's website</title>
+</svelte:head>
+
 <Box>
 	<h1>Hi! I'm Ketok</h1>
 	<p>I like computer stuff</p>

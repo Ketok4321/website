@@ -4,6 +4,10 @@
     import Title from "../../lib/components/Title.svelte"
 </script>
 
+<svelte:head>
+    <title>Ketok's self-hosted stuff</title>
+</svelte:head>
+
 <Box>
 	<h1>Things I self-host</h1>
 	<p>Things I host myself</p>

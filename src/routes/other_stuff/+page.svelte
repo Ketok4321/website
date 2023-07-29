@@ -5,6 +5,10 @@
     import Friend from "./Friend.svelte"
 </script>
 
+<svelte:head>
+    <title>Ketok's other stuff</title>
+</svelte:head>
+
 <Box>
 	<Title title="Other stuff"/>
 	<p>Just things</p>

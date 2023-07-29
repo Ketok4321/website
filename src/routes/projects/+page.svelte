@@ -5,6 +5,10 @@
     import Title from "$lib/components/Title.svelte"
 </script>
 
+<svelte:head>
+    <title>Ketok's projects</title>
+</svelte:head>
+
 <Box>
 	<h1>My projects</h1>
 	<p>Things I made or still work on</p>
