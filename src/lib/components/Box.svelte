@@ -19,7 +19,7 @@
 
     .contents {
         width: 90%;
-        max-width: 40em;
+        max-width: 25em;
         margin: 0.5em auto;
 
         text-align: center;
@@ -39,7 +39,7 @@
 
         > :global(p) {
             margin: 1em auto;
-            font-size: 0.75em;
+            font-size: 0.7em;
         }
     }
 

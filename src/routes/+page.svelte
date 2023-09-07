@@ -10,7 +10,7 @@
 
 <Box>
 	<h1>Hi! I'm Ketok</h1>
-	<p>I like computer stuff</p>
+	<p>I'm a silly creature that likes computer stuff</p>
 	
 	<Flex type="vertical">
 		<Link href="https://github.com/Ketok4321" label="Ketok4321" icon="github/f0f0f0" alt="github"/>
@@ -38,5 +38,5 @@
 </Box>
 
 <Box>
-	<p>Note: This page is very WIP</p>
+	<p>Note: This website is WIP</p>
 </Box>

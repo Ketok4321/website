@@ -39,7 +39,7 @@
 <Box>
 	<Title title="Wilderness" subtitle="Development paused" />
 	<p>
-		A minecraft mod that enhances minecraft's forests by adding new, wilder variants of them, like old growth forest, or mixed forest.
+		A minecraft mod that enhances minecraft's forests by adding new, wilder variants of them.
 	</p>
 	<Flex type="horizontal">
 		<Link href="https://github.com/Ketok4321/wilderness" label="Repo" icon="github/f0f0f0" alt="github"/>
@@ -49,7 +49,7 @@
 <Box>
 	<Title title="The end" subtitle="That's all" />
 	<p>
-		Well, I have also created a few other small things, and made some minor contributions to other projects, but I don't think they are that noteworthy.
-		If you want to see them, you can check my <a href="https://github.com/Ketok4321">GitHub</a> profile.
+		I have also created a few other small things, and made some minor contributions to a few FOSS projects, but I don't think they are that noteworthy.<br>
+		If you want to see them, you can check out my <a href="https://github.com/Ketok4321">GitHub</a> profile.
 	</p>
 </Box>

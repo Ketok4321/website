@@ -16,8 +16,8 @@
 <Box>
 	<Title title="Container registry"/>
 	<p>
-		I host my own docker container regsitry at reg.ketok.xyz.<br>
-		At the time of writing this, the only image hosted there is for my discord bot, but there will be more in the future.
+		I host my own docker regsitry at reg.ketok.xyz.<br>
+		At the time of writing this, the only image hosted there is for my discord bot.
 	</p>
 </Box>
 
@@ -33,7 +33,7 @@
 <Box>
 	<Title title="The end"/>
 	<p>
-		I actually self-host a few more things, but a lot of them are just for myself and my friends.<br>
+		I actually self-host a few more things, but a lot of them are just for me and my friends.<br>
 		There will be more stuff on this page in the future tho.
 	</p>
 </Box>
