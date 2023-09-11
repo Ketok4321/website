@@ -27,7 +27,18 @@
 </Box>
 
 <Box>
-	<Title title="Advanced Esolang" subtitle="Work in progress" />
+	<Title title="Speedtest" subtitle="Done" />
+	<p>
+		A <a href="https://librespeed.org">librespeed</a> client using gtk4+libadwaita.
+	</p>
+	<Flex type="horizontal">
+		<Link href="https://github.com/Ketok4321/speedtest" label="Repo" icon="github/f0f0f0" alt="github"/>
+		<Link href="https://flathub.org/apps/xyz.ketok.Speedtest" label="Download" icon="flatpak/f0f0f0" alt="flathub"/>
+	</Flex>
+</Box>
+
+<Box>
+	<Title title="Advanced Esolang" subtitle="Development paused" />
 	<p>
 		An object oriented esolang. The name comes from the fact that it has no primitives.
 	</p>
