@@ -18,6 +18,6 @@
 	<Title title="Cool websites" subtitle="(by cool i mean those of my friends)"/>
 	<Flex type="horizontal">
         <Friend name="Henior" href="https://kefir.ovh" img="https://kefir.ovh/assets/favicon.ico"/>
-        <Friend name="Fira" href="https://fira.jest.gay" img="https://avatars.akamai.steamstatic.com/6c01eeb1a8ee2bad8bedfe051d3c77aa5f8556ba_full.jpg"/>
+        <Friend name="Fira" href="https://fira.jest.gay" img="https://fira.jest.gay/sog/images (11).jpg"/>
     </Flex>
 </Box>
