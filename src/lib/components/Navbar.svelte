@@ -2,7 +2,7 @@
     <a href="projects">Projects</a>
     <a href="self_hosted">Self Hosted</a>
     <a href="/" id="title">ketok.xyz</a>
-    <a href="todo">About Me</a>
+    <a href="https://playground.ketok.xyz">Playground</a>
     <a href="other_stuff">Other Stuff</a>
 </nav>
 
