@@ -37,6 +37,10 @@
             font-size: 1.5em;
         }
 
+        > :global(h2) {
+            font-size: 1.25em;
+        }
+
         > :global(p) {
             margin: 1em auto;
             font-size: 0.7em;
