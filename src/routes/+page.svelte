@@ -33,11 +33,6 @@
 </Box>
 
 <Box>
-	<h2><a href="self_hosted">Things I self-host &gt;&gt;&gt;</a></h2>
-	<p>Things I host myself</p>
-</Box>
-
-<Box>
 	<h2><a href="other_stuff">Other things &gt;&gt;&gt;</a></h2>
 	<p>Just things</p>
 </Box>

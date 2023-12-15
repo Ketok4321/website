@@ -33,7 +33,7 @@
 	</p>
 	<Flex type="horizontal">
 		<Link href="https://github.com/Ketok4321/speedtest" label="Repo" icon="github/f0f0f0" alt="github"/>
-		<Link href="https://flathub.org/apps/xyz.ketok.Speedtest" label="Download" icon="flatpak/f0f0f0" alt="flathub"/>
+		<Link href="https://flathub.org/apps/xyz.ketok.Speedtest" label="Install" icon="flatpak/f0f0f0" alt="flathub"/>
 	</Flex>
 </Box>
 
@@ -58,9 +58,9 @@
 </Box>
 
 <Box>
-	<Title title="The end" subtitle="That's all" />
+	<Title title="The end" />
 	<p>
 		I have also created a few other small things, and made some minor contributions to a few FOSS projects, but I don't think they are that noteworthy.<br>
-		If you want to see them, you can check out my <a href="https://github.com/Ketok4321">GitHub</a> profile.
+		If you want to see them, check out my <a href="https://github.com/Ketok4321">GitHub</a> profile.
 	</p>
 </Box>
