@@ -28,6 +28,11 @@
 </Box>
 
 <Box>
+	<h2><a href="https://playground.ketok.xyz">The playground &gt;&gt;&gt;</a></h2>
+	<p>Run some of my projects, all inside a linux virtual machine running inside your browser!</p>
+</Box>
+
+<Box>
 	<h2><a href="self_hosted">Things I self-host &gt;&gt;&gt;</a></h2>
 	<p>Things I host myself</p>
 </Box>
