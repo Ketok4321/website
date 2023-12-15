@@ -1,13 +1,14 @@
 <script>
-    export let name;
-    export let href;
     export let img;
+    export let alt;
+    export let size = "3em";
+    export let href;
 </script>
 
 <div>
     <a href={href}>
-        <img src={img} alt="{name}'s profile picture" />
-        <p>{name}</p>
+        <img style:width={size} style:height={size} src={img} alt={alt} />
+        <slot></slot>
     </a>
 </div>
 
@@ -22,8 +23,6 @@
     img {
         --color-border: var(--color-background-border);
 
-        width: 3em;
-        height: 3em;
         border-radius: 50%;
         border: solid var(--color-border) 0.15em;
         background: var(--color-border);
@@ -37,7 +36,7 @@
         filter: saturate(100%) drop-shadow(0 0 0.5em var(--color-accent-25));;
     }
 
-    p {
+    :global(p) {
         margin: 0.25em;
         font-size: 0.75em;
     }

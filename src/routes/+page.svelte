@@ -2,6 +2,7 @@
     import Box from "$lib/components/Box.svelte"
     import Link from "$lib/components/Link.svelte"
 	import Flex from "$lib/components/Flex.svelte"
+	import Avatar from "$lib/components/Avatar.svelte"
 </script>
 
 <svelte:head>
@@ -9,7 +10,11 @@
 </svelte:head>
 
 <Box>
-	<h1>Hi! I'm Ketok</h1>
+    <div style:margin-top="1em">
+        <Avatar img="/img/avatar.png" alt="It's me!" href="/" size="4em"/>
+    </div>
+
+	<h1 style:margin-top="0">Hi! I'm Ketok</h1>
 	<p>I'm a silly creature that likes computer stuff</p>
 	
 	<Flex type="vertical">
@@ -35,8 +40,4 @@
 <Box>
 	<h2>Contact</h2>
 	<p>Email: <a href="mailto:ketok@ketok.xyz">ketok@ketok.xyz</a></p>
-</Box>
-
-<Box>
-	<p>Note: This website is WIP</p>
 </Box>

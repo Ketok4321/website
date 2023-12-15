@@ -2,7 +2,7 @@
     import Box from "$lib/components/Box.svelte"
     import Flex from "$lib/components/Flex.svelte"
     import Title from "$lib/components/Title.svelte"
-    import Friend from "./Friend.svelte"
+    import Avatar from "$lib/components/Avatar.svelte"
 </script>
 
 <svelte:head>
@@ -17,7 +17,11 @@
 <Box>
 	<Title title="Cool websites" subtitle="(by cool i mean those of my friends)"/>
 	<Flex type="horizontal">
-        <Friend name="Henior" href="https://kefir.ovh" img="https://kefir.ovh/assets/favicon.ico"/>
-        <Friend name="Fira" href="https://fira.jest.gay" img="https://fira.jest.gay/sog/images (11).jpg"/>
+        <Avatar href="https://kefir.ovh" img="https://kefir.ovh/assets/favicon.ico" alt="Henior's profile picture">
+            <p>Henior</p>
+        </Avatar>
+        <Avatar href="https://fira.jest.gay" img="https://fira.jest.gay/sog/images (11).jpg" alt="Fira's profile picture">
+            <p>Fira</p>
+        </Avatar>
     </Flex>
 </Box>
