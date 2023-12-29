@@ -1,3 +1,5 @@
+// NOTE: If i ever will readd this component somewhere, i will need to add font awesome back
+
 <script>
     export let copy_button = false;
 </script>
