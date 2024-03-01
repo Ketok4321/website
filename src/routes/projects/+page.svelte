@@ -38,22 +38,23 @@
 </Box>
 
 <Box>
+	<Title title="Wilderness" subtitle="Alpha released" />
+	<p>
+		A minecraft mod that enhances minecraft's forests by adding new, wilder variants of them.
+	</p>
+	<Flex type="horizontal">
+		<Link href="https://github.com/Ketok4321/wilderness" label="Repo" icon="github/f0f0f0" alt="github"/>
+		<Link href="https://modrinth.com/mod/ketok-wilderness" label="Download" icon="modrinth/f0f0f0" alt="modrinth"/>
+	</Flex>
+</Box>
+
+<Box>
 	<Title title="Advanced Esolang" subtitle="Development paused" />
 	<p>
 		An object oriented esolang. The name comes from the fact that it has no primitives.
 	</p>
 	<Flex type="horizontal">
 		<Link href="https://github.com/Ketok4321/AdvancedEsolang" label="Repo" icon="github/f0f0f0" alt="github"/>
-	</Flex>
-</Box>
-
-<Box>
-	<Title title="Wilderness" subtitle="Development paused" />
-	<p>
-		A minecraft mod that enhances minecraft's forests by adding new, wilder variants of them.
-	</p>
-	<Flex type="horizontal">
-		<Link href="https://github.com/Ketok4321/wilderness" label="Repo" icon="github/f0f0f0" alt="github"/>
 	</Flex>
 </Box>
 
