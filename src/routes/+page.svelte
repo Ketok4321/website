@@ -33,11 +33,6 @@
 </Box>
 
 <Box>
-	<h2><a href="other_stuff">Other things &gt;&gt;&gt;</a></h2>
-	<p>Just things</p>
-</Box>
-
-<Box>
 	<h2>Contact</h2>
 	<p>Email: <a href="mailto:ketok@ketok.xyz">ketok@ketok.xyz</a></p>
 </Box>
