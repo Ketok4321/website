@@ -54,7 +54,8 @@
 		An object oriented esolang. The name comes from the fact that it has no primitives.
 	</p>
 	<Flex type="horizontal">
-		<Link href="https://github.com/Ketok4321/AdvancedEsolang" label="Repo" icon="github/f0f0f0" alt="github"/>
+		<Link href="https://github.com/Ketok4321/AdvancedEsolang" label="Repo (Legacy)" icon="github/f0f0f0" alt="github"/>
+		<Link href="https://github.com/Ketok4321/advrs" label="Repo (Rewrite)" icon="github/f0f0f0" alt="github"/>
 	</Flex>
 </Box>
 
