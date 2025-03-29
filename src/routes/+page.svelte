@@ -23,11 +23,6 @@
 </Box>
 
 <Box>
-	<h2><a href="projects">My projects &gt;&gt;&gt;</a></h2>
-	<p>Things I made or still work on</p>
-</Box>
-
-<Box>
 	<h2><a href="https://playground.ketok.xyz">The playground &gt;&gt;&gt;</a></h2>
 	<p>Run some of my projects, all inside a linux virtual machine running inside your browser!</p>
 </Box>
